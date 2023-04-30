@@ -12,7 +12,7 @@
 
             <div class="row_2_sem_cor"></div>
 
-        <div class="spc_sem_cor"></div>
+        <div class="spc"></div>
 
             <div class="row_3">
 

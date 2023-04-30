@@ -37,7 +37,7 @@ CREATE TABLE `admin_vendas_uni` (
   `acrescimo` varchar(45) NOT NULL,
   `valor_acrescimo` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=207 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -46,7 +46,7 @@ CREATE TABLE `admin_vendas_uni` (
 
 LOCK TABLES `admin_vendas_uni` WRITE;
 /*!40000 ALTER TABLE `admin_vendas_uni` DISABLE KEYS */;
-INSERT INTO `admin_vendas_uni` VALUES (161,'1','2023-04-29','21:41:37','1','Acerola','Agua','Açucar e Gelo','5.49','Amendoim',''),(162,'2','2023-04-29','21:44:29','2','Banana','Agua','Açucar e Gelo','2.44','Amendoim',''),(163,'2','2023-04-29','21:44:29','7','Melão com pessego e Limão','Agua','Açucar e Gelo','4.14','',''),(164,'3','2023-04-29','21:44:47','3','Laranja','Natural','Açucar e Gelo','3.92','',''),(165,'4','2023-04-29','21:47:10','5','Melancia','Natural','Açucar e Gelo','3.52','',''),(166,'5','2023-04-29','21:47:29','8','Couve Hortelã e Laranja','Laranja','Açucar e Gelo','6.11','',''),(167,'6','2023-04-29','21:49:09','11','Abacaxi com Coco','Leite','Açucar e Gelo','3.57','',''),(168,'7','2023-04-29','21:51:38','4','Maracuja','Agua','Açucar e Gelo','3.13','',''),(169,'8','2023-04-29','21:57:50','3','Laranja','Natural','Açucar e Gelo','3.92','',''),(170,'9','2023-04-29','21:58:27','2','Banana','Agua','Açucar e Gelo','2.44','',''),(171,'10','2023-04-29','22:08:49','5','Melancia','Natural','Açucar e Gelo','3.52','',''),(172,'11','2023-04-29','22:19:58','2','Banana','Agua','Açucar e Gelo','2.44','',''),(173,'11','2023-04-29','22:19:58','1','Acerola','Agua','Só Gelo / sem Açucar','5.49','',''),(174,'12','2023-04-29','22:20:32','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(175,'13','2023-04-29','22:23:40','3','Laranja','Natural','Açucar e Gelo','3.92','',''),(176,'14','2023-04-29','22:25:42','10','Frutas Vermelhas','Leite','Açucar e Gelo','9.58','',''),(177,'14','2023-04-29','22:25:42','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(178,'15','2023-04-29','22:26:42','12','Coco com Morango','Leite','Açucar e Gelo','8.67','',''),(179,'15','2023-04-29','22:26:42','8','Couve Hortelã e Laranja','Laranja','Açucar e Gelo','6.11','',''),(180,'16','2023-04-29','22:27:06','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(181,'17','2023-04-29','22:29:15','10','Frutas Vermelhas','Leite','Açucar e Gelo','9.58','',''),(182,'17','2023-04-29','22:29:15','5','Melancia','Natural','Só Gelo / sem Açucar','3.52','',''),(183,'18','2023-04-29','22:31:58','2','Banana','Leite','Açucar e Gelo','3.19','',''),(184,'19','2023-04-29','22:32:33','7','Melão com pessego e Limão','Agua','Açucar e Gelo','4.14','',''),(185,'20','2023-04-29','22:34:54','16','Tamarindo com Morango e Laranja','Laranja','Açucar e Gelo','8.77','',''),(186,'20','2023-04-29','22:34:54','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(187,'21','2023-04-29','22:36:17','2','Banana','Agua','Açucar e Gelo','2.44','',''),(188,'22','2023-04-29','22:36:54','2','Banana','Agua','Açucar e Gelo','2.44','',''),(189,'23','2023-04-29','22:48:50','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(190,'23','2023-04-29','22:48:50','4','Maracuja','Agua','Açucar e Gelo','3.13','',''),(191,'23','2023-04-29','22:48:50','2','Banana','Leite','Açucar e Gelo','3.19','',''),(192,'24','2023-04-29','22:57:41','2','Banana','Leite','Açucar e Gelo','3.19','',''),(193,'25','2023-04-29','22:59:00','2','Banana','Leite','Açucar e Gelo','3.19','',''),(194,'26','2023-04-29','22:59:19','2','Banana','Leite','Açucar e Gelo','3.19','',''),(195,'27','2023-04-29','22:59:31','1','Acerola','Leite','Açucar e Gelo','6.39','',''),(196,'28','2023-04-29','22:59:51','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(197,'29','2023-04-29','23:00:05','6','Abacaxi com Limão','Agua','Açucar e Gelo','3.14','',''),(198,'30','2023-04-29','23:00:24','13','Maracuja com Morango','Leite','Açucar e Gelo','7.27','',''),(199,'31','2023-04-29','23:15:56','16','Tamarindo com Morango e Laranja','Laranja','Açucar e Gelo','8.77','',''),(200,'32','2023-04-29','23:16:05','16','Tamarindo com Morango e Laranja','Laranja','Açucar e Gelo','8.77','',''),(201,'33','2023-04-29','23:19:48','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(202,'34','2023-04-29','23:25:25','1','Acerola','Agua','Açucar e Gelo','5.49','',''),(203,'35','2023-04-29','23:25:40','2','Banana','Leite','Açucar e Gelo','3.19','',''),(204,'36','2023-04-29','23:25:58','16','Tamarindo com Morango e Laranja','Laranja','Sem Açucar / Sem Gelo','8.77','',''),(205,'37','2023-04-29','23:27:49','1','Acerola','Agua','Sem Açucar / Sem Gelo','5.49','Chocolate',''),(206,'38','2023-04-29','23:36:07','5','Melancia','Agua de Coco','Açucar e Gelo','4.76','Chantilly','3.80');
+INSERT INTO `admin_vendas_uni` VALUES (1,'1','2023-04-30','15:18:00','1','Acerola','Laranja','Açucar e Gelo','5.47','',''),(4,'2','2023-04-30','15:19:32','7','Melão com pessego e Limão','Agua','Açucar e Gelo','4.14','',''),(5,'2','2023-04-30','15:19:32','6','Abacaxi com Limão','Agua','Açucar e Gelo','3.14','',''),(6,'2','2023-04-30','15:19:32','14','Uva Duplo','Leite','Açucar e Gelo','7.38','',''),(7,'3','2023-04-30','15:26:06','1','Acerola','Agua','Açucar e Gelo','5.49','','');
 /*!40000 ALTER TABLE `admin_vendas_uni` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -67,7 +67,7 @@ CREATE TABLE `pagar_pedido` (
   `valor_acrescimo` varchar(45) NOT NULL,
   `liquido` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=209 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -346,4 +346,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-29 23:37:36
+-- Dump completed on 2023-04-30 15:31:09

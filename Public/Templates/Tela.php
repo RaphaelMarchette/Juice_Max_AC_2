@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="Static_55/css/Tela.css"/>
-    <link rel="stylesheet" href="Static_55/css/Table.css"/>
-    <link rel="stylesheet" href="Static_55/css/Container.css" />
+    <link rel="stylesheet" href="Static/css/Tela.css"/>
+    <link rel="stylesheet" href="Static/css/Table.css"/>
+    <link rel="stylesheet" href="Static/css/Container.css" />
 </body>
 </html>
 
