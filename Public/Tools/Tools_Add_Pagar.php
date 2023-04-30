@@ -19,10 +19,10 @@
 
     include_once('../../config.php');
 
+
+    // select_1_PRE_SUCO
     $sqlSelect_1 = "SELECT * FROM pre_suco WHERE id=1 ";
     $result_1 = $conexao->query($sqlSelect_1);
-
-    // select_1
     if($result_1->num_rows > 0)
     {
         while($user_data_1 = mysqli_fetch_assoc($result_1))
@@ -32,7 +32,7 @@
             $valor = $user_data_1['valor'];
         }
 
-            // select_2
+            // select_2_PRE_LIQUIDO
             $sqlSelect_2 = "SELECT * FROM pre_liquido WHERE id=1 ";
             $result_2 = $conexao->query($sqlSelect_2);
 
@@ -45,7 +45,7 @@
                 }
             
 
-                // select_3
+                // select_3_PRE_PREFERENCIA
                 $sqlSelect_3 = "SELECT * FROM pre_preferencia WHERE id=1 ";
                 $result_3 = $conexao->query($sqlSelect_3);
 
@@ -58,7 +58,7 @@
 
 
 
-                    // select_4
+                    // select_4_PRE_ACRESCIMO
                     $sqlSelect_4 = "SELECT * FROM pre_acrescimo WHERE id=1 ";
                     $result_4 = $conexao->query($sqlSelect_4);
                     
